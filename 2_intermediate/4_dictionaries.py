@@ -91,3 +91,58 @@ print(transactions)
 print(f"The total income is {total_income}")
 print(f"The total expenses is {total_expenses}")
 print(f"Your current balance is {balance}")
+
+
+# Challenge
+locations = {
+    'start': {
+        'description': "You are at the starting point. There are two paths: left and right.",
+        'options': {'left': 'forest', 'right': 'cave'}
+    },
+    'forest': {
+        'description': "You are in a dense forest. There are two paths: forward and backward.",
+        'options': {'forward': 'river', 'backward': 'start'}
+    },
+    'cave': {
+        'description': "You are inside a dark cave. There are two paths: forward and backward.",
+        'options': {'forward': 'treasure', 'backward': 'start'}
+    },
+    'river': {
+        'description': "You are at the edge of a roaring river. There is no way forward.",
+        'options': {'backward': 'forest'}
+    },
+    'treasure': {
+        'description': "You've found the treasure! Congratulations!",
+        'options': {}
+    }
+}
+
+# Game
+current_location = 'start'
+
+while True:
+    # user's location description
+    print(locations[current_location]['description'])
+
+    # give the user options
+    options = locations[current_location]['options']
+    print("Options:")
+    for option in options:
+        print(f" - {option}")
+
+    # Get the user input
+    user_choice = input("Choose an option: ").lower()
+
+    # Validate the options
+    while user_choice not in options:
+        user_choice = input("Invalid option. Choose again: ").lower()
+
+    # Update the current location
+    current_location = options[user_choice]
+
+    # Finish the game
+    if current_location == 'treasure':
+        break
+
+# print final message
+print("Game over! You found the treasure")
