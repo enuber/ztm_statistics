@@ -1,0 +1,12 @@
+Population vs Samples
+
+A sample is a subset of a Population
+
+example: Eating habits of people who work at your company
+All employees = population
+
+100 employees = sample (where your company has much more than 100 employees we take a sample amount of them)
+
+A sample must be respresentative of the population, this means that the characteristics of the sampel should match those of the population. For example if the population is 50% male/50% female the samle shoudl also be 50:50. Otherwise a non-respresentative sample can lead to wrong conclusions.
+
+We use samples because it is close to impossible and expensive to survey the whole population. For example it may be too expensive or time consuming to survey every single student at a school or every employee at a company. However it is important to choose a sample so that they or the results are as accurate as can be. 

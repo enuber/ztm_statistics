@@ -1,0 +1,12 @@
+Variable Types in Statistics
+
+Quantitative
+any metric that measures or quantifies falls into the quantitative continuous bucket.
+there are two types of quantitative variables
+1. Continuous - have a continuous range like Age, Income, or Height
+2. Discrete - these are grouped or catergorized like Age Groups [0-18], [18-25], Income Groups [10k-20k]
+
+Qualitative
+there are two types of qualitative
+1. Nominal - eye color, room types, something that doesn't have a natural order
+2. Ordinal - Education, Survey Data (like satisfied through unsatisfied), something that does have a natural order like for education there is elementary school, jr high school, high school then college. you can't just go to college without having gone through the rest.

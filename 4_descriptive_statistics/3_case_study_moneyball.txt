@@ -1,0 +1,6 @@
+Moneyball
+
+Dataset covers baseball teams form 1962-2012
+Metrics categories include team, league and year
+
+they use data-driven strategies to identify undervalued players and create a competitive team on a limited budget. They succesfully challenged conventional methods by using statistical techniques.
